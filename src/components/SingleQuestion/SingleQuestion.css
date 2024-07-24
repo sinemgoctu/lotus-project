@@ -1,0 +1,32 @@
+.single-question-container {
+  margin-top: 20px;
+}
+
+.single-question-header {
+  margin-bottom: 20px;
+}
+
+.single-question-box {
+  padding: 16px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+.single-question-answers {
+  margin-bottom: 20px;
+}
+
+.single-question-answer {
+  padding: 16px;
+  margin: 8px 0;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.single-question-answer-text {
+  font-size: 16px;
+}
+
+.single-question-submit {
+  margin-top: 20px;
+}

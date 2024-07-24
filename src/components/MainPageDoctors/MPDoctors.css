@@ -1,0 +1,26 @@
+.mpdoctors-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mpdoctors-header h2 {
+  margin: 0;
+}
+
+.mpdoctors-header a {
+  color: black;
+  text-decoration: underline;
+}
+
+.mpdoctors {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  text-align: start;
+}
+
+.mpdoctor-wrapper {
+  padding: 40px;
+}

@@ -1,0 +1,21 @@
+.single-conversation-container {
+  margin-top: 20px;
+}
+
+.single-conversation-header {
+  margin-bottom: 20px;
+}
+
+.single-conversation-messages {
+  margin-bottom: 20px;
+}
+
+.single-conversation-message {
+  padding: 16px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+.single-conversation-submit {
+  margin-top: 20px;
+}

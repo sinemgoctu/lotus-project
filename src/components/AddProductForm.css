@@ -1,0 +1,27 @@
+.input-boxes {
+  padding: 0px;
+}
+
+.input-boxes .input-product-name {
+  margin-bottom: 5px;
+}
+
+.input-boxes .input-product-definition {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.input-boxes .input-product-price {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.input-boxes .input-product-category {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.input-boxes .input-product-location {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,26 @@
+.all-conversations-container {
+  margin-top: 20px;
+}
+
+.all-conversations-header {
+  margin-bottom: 8px;
+}
+
+.all-conversations-list {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.conversation-item {
+  padding: 16px;
+  margin: 8px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conversation-item a {
+  text-decoration: none;
+  color: inherit;
+}

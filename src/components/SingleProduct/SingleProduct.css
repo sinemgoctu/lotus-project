@@ -1,0 +1,32 @@
+.single-product-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.single-product-image-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.single-product-image {
+  width: 50%;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.single-product-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.single-product-meta {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.single-product-description {
+  text-align: center;
+  margin-top: 10px;
+}

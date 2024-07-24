@@ -1,0 +1,24 @@
+.product-item {
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.product-title {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.product-price {
+  color: black;
+  font-size: 1.1em;
+}

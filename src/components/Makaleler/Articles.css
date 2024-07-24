@@ -1,0 +1,58 @@
+.article-wrapper {
+  padding: 20px;
+}
+
+.articles-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-filter {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.search-filter input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.search-filter select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.article-item {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-image img {
+  width: 100%;
+  height: auto;
+}
+
+.article-info {
+  padding: 10px;
+}
+
+.article-filter-button {
+  background-color: #f4c2c2;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}

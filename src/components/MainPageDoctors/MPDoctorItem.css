@@ -1,0 +1,42 @@
+.mpdoctor-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e3e4e5;
+  height: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f8f8f8;
+}
+
+.mpdoctor-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.mpdoctor-info {
+  padding: 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mpdoctor-info h3 {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+.mpdoctor-info a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mpdoctor-info a:hover {
+  text-decoration: underline;
+}

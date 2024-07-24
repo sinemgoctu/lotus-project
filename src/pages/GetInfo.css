@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f0f2f5;
+}
+
+.get-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+  background-size: cover;
+  background-image: url("http://localhost:3000/pinkbg.jpg");
+}
+
+.get-info-box {
+  background-color: #f0f2f5;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.first-day-text {
+  color: #333333;
+  text-align: center;
+  text-decoration: none;
+}
+
+.get-info-header {
+  margin-bottom: 20px;
+}
+
+.get-info-header h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #333333;
+}
+
+.get-info-header p {
+  margin: 0;
+  color: #888888;
+}
+
+.get-info-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.get-info-input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.get-info-button {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #333333;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.get-info-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.get-info-button:hover {
+  background-color: #333333;
+}
+
+.not-pregnant-text {
+  color: #333333;
+  text-decoration: underline;
+}

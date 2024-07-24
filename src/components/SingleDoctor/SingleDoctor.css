@@ -1,0 +1,42 @@
+.single-doctor-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.doctor-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.doctor-info img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.appointments-section {
+  flex: 2;
+  padding: 20px;
+}
+
+.appointments-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.appointment {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  flex-basis: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.booked {
+  background-color: red;
+}
+
+.available {
+  background-color: green;
+}

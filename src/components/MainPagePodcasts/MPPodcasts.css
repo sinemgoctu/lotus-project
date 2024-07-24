@@ -1,0 +1,26 @@
+.mppodcasts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mppodcasts-header h2 {
+  margin: 0;
+}
+
+.mppodcasts-header a {
+  color: black;
+  text-decoration: underline;
+}
+
+.mppodcasts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  text-align: start;
+}
+
+.mppodcast-wrapper {
+  padding: 40px;
+}

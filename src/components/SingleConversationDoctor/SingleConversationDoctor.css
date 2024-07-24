@@ -1,0 +1,21 @@
+.single-conversation-doctor-container {
+  margin-top: 20px;
+}
+
+.single-conversation-doctor-header {
+  margin-bottom: 20px;
+}
+
+.single-conversation-doctor-messages {
+  margin-bottom: 20px;
+}
+
+.single-conversation-doctor-message {
+  padding: 16px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+.single-conversation-doctor-submit {
+  margin-top: 20px;
+}
